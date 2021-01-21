@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{f72ac015-d6a1-4b33-833b-4e3c38230600}">
+		<property name="name">
+			<value>Parameter 1</value>
+		</property>
+		<relationship name="folder">
+			<destination>{62d53926-79ce-4a9f-8e55-0131372aa679}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{75c3bb6e-f306-4991-9945-5502d0811919}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{75c3bb6e-f306-4991-9945-5502d0811919}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{bb4abeaf-ab96-4989-86e4-47bed28266c2}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{6a7b64dc-9c94-44ff-8a67-d174e7969340}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{bb4abeaf-ab96-4989-86e4-47bed28266c2}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{6a7b64dc-9c94-44ff-8a67-d174e7969340}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
